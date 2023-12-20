@@ -1,0 +1,1059 @@
+{
+	{SS}
+	{1-1}
+	{
+		{
+		Express each of the following complex numbers in Cartesian form (x + jy):   
+		$\frac{1}{2}e^{j\pi}$   
+        $\frac{1}{2}e^{-j\pi}$   
+        $e^{j\frac{\pi}{2}}$   
+        $e^{-j\frac{\pi}{2}}$   
+        $e^{-j\frac{5\pi}{2}}$   
+        $\sqrt{2}e^{j\frac{\pi}{4}}$   
+        $\sqrt{2}e^{j\frac{9\pi}{4}}$   
+        $\sqrt{2}e^{-j\frac{9\pi}{4}}$   
+        $\sqrt{2}e^{-j\frac{\pi}{4}}$   
+		}  
+		{  
+		用笛卡儿坐标形式(x + jy) 表示下列复数。  
+		$\frac{1}{2}e^{j\pi}$   
+        $\frac{1}{2}e^{-j\pi}$   
+        $e^{j\frac{\pi}{2}}$   
+        $e^{-j\frac{\pi}{2}}$   
+        $e^{-j\frac{5\pi}{2}}$   
+        $\sqrt{2}e^{j\frac{\pi}{4}}$   
+        $\sqrt{2}e^{j\frac{9\pi}{4}}$   
+        $\sqrt{2}e^{-j\frac{9\pi}{4}}$   
+        $\sqrt{2}e^{-j\frac{\pi}{4}}$   
+		}  
+	}  
+	{None}  
+	{}  
+	{}  
+}
+
+{
+	{SS}
+	{1-19}
+	{
+		{
+		For each of the following input-output relationships, determine whether the corresponding system is linear, time invariant or both.  
+		(a)y(t)=$t^2x(t-1)$  
+		(b)y[n]=$x^2[n-2]$  
+		(c)y[n]=x[n+1]-x[n-1]  
+		(d)y(t)=od{x(t)}  
+		}
+		{
+		判定下列输入－输出关系的系统是否具有线性性质、时不变性质，或两者俱有。
+		(a)y(t)=$t^2x(t-1)$  
+		(b)y[n]=$x^2[n-2]$  
+		(c)y[n]=x[n+1]-x[n-1]  
+		(d)y(t)=od{x(t)}  
+		}
+	}
+	{None}
+	{}
+	{}
+}
+
+{
+	{SS}
+	{1-20}
+	{
+		{
+		A continuous-time linear systemS with input x(t) and output y(t) yields the following input-output pairs:  
+		$x(t)=e^{j2t}\stackrel{S}{\longrightarrow}y(t)=e^{j3t}$  
+		$x(t)=e^{-j2t}\stackrel{S}{\longrightarrow}y(t)=e^{-j3t}$   
+		(a) If $x_{1}(t) = \cos(2t)$, determine the corresponding output $y_{1}(t)$ for system S.   
+		(b) If $x_{2}(t) = \cos(2(t-\frac{1}{2}))$, determine the corresponding output $y_{2}(t)$ for system S.
+		}
+		{
+		一个连续时间线性系统 的输入为 x(t) ，输出为 y(t) ，有下面的输入－输出关系：
+		$x(t)=e^{j2t}\stackrel{S}{\longrightarrow}y(t)=e^{j3t}$  
+		$x(t)=e^{-j2t}\stackrel{S}{\longrightarrow}y(t)=e^{-j3t}$   
+		(a) $x_{1}(t) = \cos(2t)$，求系统S的输出 $y_{1}(t)$   
+		(b) $x_{2}(t) = \cos(2(t-\frac{1}{2}))$，求系统S的输出 $y_{2}(t)$ 
+		}
+	}
+	{None}
+	{}
+	{}
+}
+
+{
+	{SS}
+	{1-22}
+	{
+		{
+		A discrete-time signal is shown in Figure P1.22. Sketch and label carefully each of the following signals  
+		(a)$x[n-4]$  
+		(b)$x[3-n]$  
+		(c)$x[3n]$  
+		(d)$x[3n+1]$  
+		(e)$x[n]u[3-n]$  
+		(f)$x[n-2]\delta[n-2]$  
+		(g)$\frac{1}{2}x[n]+\frac{1}{2}(-1)^{n}x[n]$  
+		(h)$x[(n-1)^{2}]$
+		}
+		{
+		离散时间信号 x[n] 如图1.22所示，画出下列信号并进行标注。	
+		(a)$x[n-4]$  
+		(b)$x[3-n]$  
+		(c)$x[3n]$  
+		(d)$x[3n+1]$  
+		(e)$x[n]u[3-n]$  
+		(f)$x[n-2]\delta[n-2]$  
+		(g)$\frac{1}{2}x[n]+\frac{1}{2}(-1)^{n}x[n]$  
+		(h)$x[(n-1)^{2}]$
+		}
+	}
+	{None}
+	{}
+	{}
+}
+
+{
+	{SS}
+	{1-23}
+	{
+		{
+		 Determine and sketch the even and odd parts of the signals depicted in Figure Pl.23. Label your sketches carefully.
+		}
+		{
+		确定并画出图 Pl.23 所示信号的奇部和偶部，并进行标注。
+		}
+	}
+	{None}
+	{}
+	{}
+}
+
+{
+	{SS}
+	{1-35}
+	{
+		{
+		Consider the periodic discrete-time exponential time signal   
+		$x[n] = e^{jmn\frac{2\pi}{N}}$   
+		Show that the fundamental period of this signal is   
+		$N_{0} = N/gcd(m, N)$   
+		where gcd(m, N) is the greatest common divisor of m and N-that is, the largest integer that divides both m and Nan integral number of times. For example, gcd(2, 3) = 1, gcd(2, 4) = 2, gcd(8, 12) = 4.   
+		Note that $N_{0} = N$ if m and N have no factors in common.	
+		}
+		{
+		考虑周期离散时间指数时间信号  
+		$x[n] = e^{jmn\frac{2\pi}{N}}$  
+		证明该信号的基波周期是  
+		$N_{0} = N/gcd(m, N)$   
+		其中 gcd(m, N) 的最大公约数(greatest common divisor) ，也就是将m和N都能约成整数的最大整数，例如gcd(2, 3) = 1, gcd(2, 4) = 2, gcd(8, 12) = 4   
+		注意：若 m,N 无公因子，则 $N_{0} = N$	
+		}
+	}
+	{None}
+	{}
+	{}
+}
+
+{
+	{SS}
+	{1-51}
+	{
+		{
+		Using Euler's relation, derive the following relationships:  
+		(a)$\cos(\theta)=\frac{1}{2}(e^{j\theta}+e^{-j\theta})$  
+		(b)$\sin(\theta)=\frac{1}{2j}(e^{j\theta}-e^{-j\theta})$  
+		(c)$\cos^2(\theta)=\frac{1}{2}(1+\cos(2\theta))$  
+		(d)$\sin(\theta)sin(\phi)=\frac{1}{2}\cos(\theta-\phi)-\frac{1}{2}\cos(\theta+\phi)$  
+		(e)$\sin(\theta+\phi)=\sin(\theta)\cos(\phi)+\cos(\phi)sin(\theta)$  
+		
+		}
+		{
+		利用欧拉公式，导出下列关系。  
+		(a)$\cos(\theta)=\frac{1}{2}(e^{j\theta}+e^{-j\theta})$  
+		(b)$\sin(\theta)=\frac{1}{2j}(e^{j\theta}-e^{-j\theta})$  
+		(c)$\cos^2(\theta)=\frac{1}{2}(1+\cos(2\theta))$  
+		(d)$\sin(\theta)sin(\phi)=\frac{1}{2}\cos(\theta-\phi)-\frac{1}{2}\cos(\theta+\phi)$  
+		(e)$\sin(\theta+\phi)=\sin(\theta)\cos(\phi)+\cos(\phi)sin(\theta)$  
+		}
+	}
+	{None}
+	{}
+	{}
+}
+
+{
+	{SS}
+	{1-53}
+	{
+		{
+		Derive the following relations, where z, z1, and z2 are arbitrary complex numbers:
+		(a)$(e^z)^*=e^{z^*}$  
+		(b)$z_1z_2^*+z_1^*z_2=2Re(z_1z_2^*)=2Re(z_1^*z_2)$   
+		}
+		{
+		试导出下列关系式，其中 z, z, Z2 都是任意复数。
+		(a)$(e^z)^*=e^{z^*}$  
+		(b)$z_1z_2^*+z_1^*z_2=2Re(z_1z_2^*)=2Re(z_1^*z_2)$   
+		}
+	}
+	{None}
+	{}
+	{}
+}
+
+{
+	{SS}
+	{2-3}
+	{
+		{
+		Consider an input x[n] and a unit impulse response h[n] given by  
+		$x[n]=(\frac{1}{2})^{n-2}u[n-2]$  
+		$h[n]=u[n+2]$  
+
+		Determine and plot the output y[n] = x[n] * h[n].
+		}
+		{
+		已知输入 [n] 和单位脉冲响应 h[n]为  
+		$x[n]=(\frac{1}{2})^{n-2}u[n-2]$  
+		$h[n]=u[n+2]$  
+		确定并画出输出 y[n] =x[n] *h[n]。  
+		}
+	}
+	{None}
+	{}
+	{}
+}
+
+{
+	{SS}
+	{2-17}
+	{
+		{
+		Consider an LTI system whose input x(t) and output y(t) are related by the differential equation   
+		$dy(t) + 4y(t) = x(t)$ (P2.17-1)   
+		The system also satisfies the condition of initial rest.   
+		(a) If $x(t) =e^{(-1+3j)t}u(t)$, what is y(t)?   
+		(b) Note that Re{x(t)} will satisfy eq. (P2.17-1) with Re{y(t)}. Determine the output y(t) of the LTI system if   
+		$x(t) = e^{-t}\cos(3t)u(t) $.  
+		}
+		{
+		考虑一个线性时不变系统，其输人 x(t) 和输出 y(t) 由下面的微分方程描述：  
+		$dy(t) + 4y(t) = x(t)$   (P2.17-1)  
+		并且系统满足初始松弛的条件。  
+		(a) 若$x(t) =e^{(-1+3j)t}u(t)$，求 y(t)。  
+		(b) 注意到式(P2.17-1)对Re{x(t)}与Re{y(t)}的关系也满足，若  
+		$x(t) = e^{-t}\cos(3t)u(t) $ 
+		求该线性时不变系统的输出y(t)。  
+		}
+	}
+	{None}
+	{}
+	{}
+} a 
+
+{
+	{SS}
+	{2-42}
+	{
+		{
+		Suppose that the signal   
+		$x(t) = u(t + 0.5) - u(t - 0.5)$   
+		is convolved with the signal   
+		$h(t) =e^{j\omega_0t}$  
+		(a) Determine a value of w 0 which ensures that y(0) = 0, 
+		where y(t) = x(t) * h(t).   
+		(b) Is your answer to the previous part unique?	  
+		}
+		{
+		假定信号  
+		$x(t) = u(t + 0.5) - u(t - 0.5)$   
+		与下列信号 h(t) 卷积：  
+		$h(t) =e^{j\omega_0t}$   
+		(a) 确定一个$\omega_0$值，保证 y(0) =0, 其中 y(t) =x(t)*(t)  
+		(b) 你认为上述答案是唯一的吗？  
+		}
+	}
+	{None}
+	{}
+	{}
+}
+
+{
+	{SS}
+	{2-72}
+	{
+		{
+		Let $\delta_\Delta(t)$ denote the rectangular pulse of height $\frac{1}{\Delta}$ for $0<t\leq \Delta$. Verify that   
+		$\frac{d}{dt}\delta_\Delta(t)=\frac{1}{\Delta}[\delta(t)-\delta(t-\Delta)]$  	
+		}
+		{
+		设$\delta_\Delta(t)$为$0<t\leq \Delta$条件下的高为$\frac{1}{\Delta}$的矩形脉冲，证明  
+		$\frac{d}{dt}\delta_\Delta(t)=\frac{1}{\Delta}[\delta(t)-\delta(t-\Delta)]$  	
+		}
+	}
+	{None}
+	{}
+	{}
+}
+
+{
+	{SS}
+	{3-21}
+	{
+		{
+		A continuous-time periodic signal x(t) is real valued and has a fundamental period T = 8. The nonzero Fourier series coefficients for x(t) are specified as   
+		$a_1= a^*_{-1} = j,a_5 =a_{-5}= 2$   
+		Express x(t) in the form   
+		$x(t) = \sum \limits_{k=0}^{\infty} A_k \cos(\omega_k t + \phi_k)$  
+		}
+		{
+		有一个连续时间周期信号 x(t) 是实值信号，其基波周期 T=8, x(t) 的非零傅里叶级数系数为	  
+		$a_1= a^*_{-1} = j,a_5 =a_{-5}= 2$ 
+		试将 x(t) 表示为如下形式：  
+		$x(t) = \sum \limits_{k=0}^{\infty} A_k \cos(\omega_k t + \phi_k)$  
+		}
+	}
+	{None}
+	{}
+	{}
+}
+
+{
+	{SS}
+	{3-53}
+	{
+		{
+		Let x[n] be a real periodic signal with period N and Fourier coefficients $a_k$.   
+		(a) Show that if N is even, at least two of the Fourier coefficients within one period of $a_k$ are real.   
+		(b) Show that if N is odd, at least one of the Fourier coefficients within one period of $a_k$ is real.	  
+		}
+		{
+		设x[n]是一个周期为 的实周期信号，其傅里叶系数为$a_k$。  
+		(a) 证明：若N为偶数，那么在 $a_k$ 的一个周期内至少有两个傅里叶系数是实数。  
+		(b) 证明：若N为奇数，那么在 $a_k$ 的一个周期内至少有一个傅里叶系数是实数。  	
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{3-60}
+	{
+		{
+		Consider the following pairs of signals x[n] and y[n]. For each pair, determine whether there is a discrete-time LTI system for which y[n] is the output when the corresponding x[n] is the input. If such a system exists, determine whether the system is unique (i.e., whether there is more than one LTI system with the given inputoutput pair). Also,determine the frequency response of an LTI system with the desired behavior. If no such LTI system exists for a given x[n], y[n] pair, explain why.  	
+		(a)$x[n]=(\frac{1}{2})^n$ , $y[n]=(\frac{1}{4})^n$  
+		(b)$x[n]=(\frac{1}{2})^nu[n]$ , $y[n]=(\frac{1}{4})^nu[n]$  
+		}
+		{
+		考虑下面各对信号x[n]和y[n]。对每一对信号判断是否有一个离散时间线性时不变系统，当该系统相应的输入是x[n]时，其输出是y[n]。若这样的系统存在，解释该系统是否是唯一的（即：是否有一个以上的线性时不变系统具有所给定的输入－输出对），并求出具有所要求特性的线性时不变系统的频率响应。如果对给出的一对x[n]和y[n]不存在这样的线性时不变系统，试说明为什么？  
+		(a)$x[n]=(\frac{1}{2})^n$ , $y[n]=(\frac{1}{4})^n$  
+		(b)$x[n]=(\frac{1}{2})^nu[n]$ , $y[n]=(\frac{1}{4})^nu[n]$  	
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{4-11}
+	{
+		{
+		Given the relationships   
+		y(t) = x(t) * h(t)   
+		and   
+		g(t) = x(3t) * h(3t),   
+		and given that x(t) has Fourier transform $X(j\omega)$ and h(t) has Fourier transform $H(j\omega)$, use Fourier transform properties to show that g(t) has the form 
+		g(t) = Ay(Bt).   
+		Determine the values of A and B.	
+		}
+		{
+		已知下列关系：  
+		y(t) = x(t) * h(t)  
+		g(t) = x(3t) * h(3t)   
+		并已知 x(t) 的傅里叶变换是  $X(j\omega)$ , h(t) 的傅里叶变换是 $H(j\omega)$  ，利用傅里叶变换性质证明g(t)为:  
+		g(t) = Ay(Bt)   
+		并求出A、B的值。	
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{4-17}
+	{
+		{
+		Determine whether each of the following statements is true or false. Justify your answers. 
+		(a) An odd and imaginary signal always has an odd and imaginary Fourier transform. 
+		(b) The convolution of an odd Fourier transform with an even Fourier transform is always odd.
+		}
+		{
+		试判断下面每一种说法是对还是错的，并给出理由。  
+		(a) 一个纯虚奇函数的信号总是有一个纯虚奇函数的傅里叶变换。  
+		(b) 一个奇的傅里叶变换与一个偶的傅里叶变换的卷积总是奇的。	  
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{4-46}
+	{
+		{
+		In Section 4.5.1, we discussed the use of amplitude modulation with a complex exponential carrier to implement a bandpass filter. The specific system was shown in Figure 4.26, and if only the real part of f(t) is retained, the equivalent bandpass filter is that shown in Figure 4.30.   
+		In Figure P4.46, we indicate an implementation of a bandpass filter using sinusoidal modulation and lowpass filters. Show that the output y(t) of the system is identical to that which would be obtained by retaining only Re{f(t)} in Figure 4.26.  	
+		}
+		{
+		在4.5.1节曾讨论过用复指数载波的幅度调制来实现一个带通滤波器，对于图 4.26 这样的系统，若仅保留 f(t) 的实部，其等效带通滤波器就如图 4.30 所示。  
+		在图 P4.46 中示出利用正弦调制和低通滤波器实现一个带通滤波器的原理图。证明该系统的输出y(t) 与图 4.26 仅保留 Re(f(t)) 所得到的输出是一样的。	
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{5-7}
+	{
+		{
+		For each of the following Fourier transforms, use Fourier transform properties (Table 5.1) to determine whether the corresponding time-domain signal is (i) real, imaginary, or neither and (ii) even, odd, or neither. Do this without evaluating the inverse of any of the given transforms.	
+		(a)$X_1(e^{j\omega})=e^{-j\omega}\sum\limits_{k=1}^{10}sin(k\omega)$  
+		(b)$X_2(e^{j\omega})=j\sin(\omega)\cos(5\omega)$  
+		}
+		{
+		对于下面每个傅里叶变换，利用傅里叶变换性质（见表 5. 1） ，确定对应的时域信号是否是 (i) 实信号、虚信号，或均不是；（ii）偶信号、奇信号，或均不是。解本题时无须求出任何逆变换。	
+		(a)$X_1(e^{j\omega})=e^{-j\omega}\sum\limits_{k=1}^{10}sin(k\omega)$  
+		(b)$X_2(e^{j\omega})=j\sin(\omega)\cos(5\omega)$  
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{5-15}
+	{
+		{
+		Let the inverse Fourier transform of $Y(e^{j\omega})$ be  
+		$y[n] = (\frac{\sin(\omega_c n)}{\pi n})^2$  
+		where $0<\omega_c<\pi$. Determine the value of We which ensures that  
+		$Y(e^{j\omega})=\frac{1}{2}$  	
+		}
+		{
+		设$Y(e^{j\omega})$的逆变换是  
+		$y[n] = (\frac{\sin(\omega_c n)}{\pi n})^2$  
+		其中 $0<\omega_c<\pi$。试确定\omega_c的值，以保证  
+		$Y(e^{j\omega})=\frac{1}{2}$	
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{5-24}
+	{
+		{
+		Determine which, if any, of the following signals have Fourier transforms that satisfy each of the following conditions: 
+1. $Re(X(e^{j\omega}))=0$ 
+2. $Im(X(e^{j\omega}))=0$ 
+3. There exists a real a such that $e^{j\alpha\omega}X(e^{j\omega})$ is real. 
+4. $\int_{-\pi}^{\pi}X(e^{j\omega})＝ 0 $
+5. $X(e^{j\omega})$periodic. 
+6. $X(e^{j0})$=0  
+
+(a) x[n] as in Figure P5.24(a)   
+(b) x[n] as in Figure P5.24(b)   
+(c) $x[n] =(\frac{1}{2})^nu[n]$  
+(d) $x[n] ＝(\frac{1}{2})^{\lvert n \rvert}  $ 
+(e) $x[n] =\delta[n-1] +\delta[n+2]   $  
+(f) $x[n] =\delta[n-1] +\delta[n+3]   $  
+(g) x[n] as in Figure P5.24(c)   
+(h) x[n] as in Figure P5.24(d)   
+(i) $x[n] =\delta[n-1] -\delta[n+1]   $	
+		}
+		{
+		试判定下列各信号，其傅里叶变换有哪一个（如果有）满足下面每一个条件：
+1. $Re(X(e^{j\omega}))=0$ 
+2. $Im(X(e^{j\omega}))=0$ 
+3. 存在一个实数 a, 使得$e^{j\alpha\omega}X(e^{j\omega})$ 为实的。
+4. $\int_{-\pi}^{\pi}X(e^{j\omega})＝ 0 $
+5. $X(e^{j\omega})$是周期的。
+6. $X(e^{j0})$=0   
+(a) x[n] 如图 P5. 24(a) 所示。  
+(b) x[n] 如图 P5. 24(b) 所示。  
+(c) $x[n] =(\frac{1}{2})^nu[n]$  
+(d) $x[n] ＝(\frac{1}{2})^{\lvert n \rvert}  $  
+(e) $x[n] =\delta[n-1] +\delta[n+2]   $  
+(f) $x[n] =\delta[n-1] +\delta[n+3]   $  
+(g) x[n] 如图 P5. 24(c) 所示。    
+(h) x[n] 如图 P5. 24(d) 所示。   
+(i) $x[n] =\delta[n-1] -\delta[n+1]   $
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{5-29}
+	{
+		{
+		Consider a discrete-time LTI system with impulse response   
+$h[n] = (\frac{1}{2})^n u[n]$.     
+Use Fourier transforms to determine the response to each of the following input signals:   
+(i) $x[n] =  (\frac{3}{4})^nu[n] $  
+(ii)$ x[n] = (n + 1)(\frac{1}{4})^nu[n]$   
+(iii) $x[n] = (-1)^n  $	
+		}
+		{
+			考虑一个离散时间线性时不变系统，其单位脉冲响应为  
+$h[n] = (\frac{1}{2})^n u[n]$   
+利用傅里叶变换求在下列各输入信号下的响应：  
+(i) $x[n] =  (\frac{3}{4})^nu[n] $  
+(ii)$ x[n] = (n + 1)(\frac{1}{4})^nu[n]$   
+(iii) $x[n] = (-1)^n  $  
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{5-35}
+	{
+		{
+		A causal LTI system is described by the difference equation   
+$y[n] - ay[n - 1] = bx[n] + x[n - 1]$  
+where a is real and less than 1 in magnitude. 
+(a) Find a value of b such that the frequency response of the system satisfies   
+$\lvert H(e^{j \omega}) \rvert= 1$, for all $\omega $.   
+This kind of system is called an all-pass system, as it does not attenuate the input $e^{j \omega n}$ for any value of $\omega $.   
+Use the value of b that you have found in the rest of the problem.     
+(b) Roughly sketch $\angle \lvert H(e^{j \omega})\rvert ,0 \leqslant \omega \leqslant \pi$ when a =$\frac{1}{2}$·   
+(c) Roughly sketch $\angle \lvert H(e^{j \omega})\rvert ,0 \leqslant \omega \leqslant \pi$, when a = $-\frac{1}{2}$.    
+(d) Find and plot the output of this system with a = $-\frac{1}{2}$,when the input is 
+$x[n] = (\frac{1}{2})^nu[n]$.   
+From this example, we see that a nonlinear change in phase can have a significantly different effect on a signal than the time shift that results from a linear phase.	
+		}
+		{
+		一个因果线性时不变系统由如下差分方程所描述：
+$y[n] - ay[n - 1] = bx[n] + x[n - 1]$  
+其中a为实数，且 $\lvert a \rvert <1$  
+(a) 找一个b值，使该系统的频率响应满足
+$\lvert H(e^{j \omega}) \rvert= 1$，对全部$\omega $  
+因为对任何$\omega$值的输入$e^{j \omega n}$都不衰减，所以这类系统称为全通系统。利用该b值解余下的问题。  
+(b) 粗略画出a =$\frac{1}{2}$ 时的 $\angle \lvert H(e^{j \omega})\rvert ,0 \leqslant \omega \leqslant \pi$  
+(c) 粗略画出 a = $-\frac{1}{2}$ 时的 $\angle \lvert H(e^{j \omega})\rvert ,0 \leqslant \omega \leqslant \pi$  
+(d) a = $-\frac{1}{2}$时，系统的输入   
+$x[n] = (\frac{1}{2})^nu[n]$  
+求出并画出该系统的输出。  
+由这个例子可见，一个非线性相移对信号造成的影响明显不同于一个线性相移所引起的信号的时移。  	
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{5-42}
+	{
+		{
+		In this problem, we derive the frequency-shift property of the discrete-time Fourier 
+transform as a special case of the multiplication property. Let x[n] be any discretetime signal with Fourier transform $X(e^{j \omega}),$ and let  
+$g[n] = e^{j \omega_0 n} x[n]$.   
+(a) Determine and sketch the Fourier transform of   
+$p[n]=e^{j \omega_0 n}$  
+(b) The multiplication property of the Fourier transform tells us that, since   
+$g[n] = p[n]x[n]$  
+$G(e^{j \omega})=\frac{1}{2\pi}\int_{<2\pi>}X(e^{j \theta})P(e^{j(\omega - \theta)})d\theta$   
+Evaluate this integral to show that   
+$G(e^{j \omega}) = X(e^{j(\omega-\omega _0)})$.  	
+		}
+		{
+		本题将导出作为相乘性质的一种特殊情况的离散时间傅里叶变换的频移性质。令 x[n] 为任意离散时间信号，其傅里叶变换为$X(e^{j \omega})$，并令  
+$g[n] = e^{j \omega_0 n} x[n]$.   
+(a) 求出并画出下面信号的傅里叶变换：  
+$p[n]=e^{j \omega_0 n}$  
+(b) 傅里叶变换的相乘性质有  
+$g[n] = p[n]x[n]$    
+$G(e^{j \omega})=\frac{1}{2\pi}\int_{<2\pi>}X(e^{j \theta})P(e^{j(\omega - \theta)})d\theta$   
+求出这个积分以证明  
+$G(e^{j \omega}) = X(e^{j(\omega-\omega _0)})$.  	
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{5-55}
+	{
+		{
+		In this problem we introduce the concept of windowing, which is of great importance 
+both in the design of LTI systems and in the spectral analysis of signals. Windowing 
+is the operation of taking a signal x[ n] and multiplying it by a finite-duration window 
+signal w[n]. That is,    
+$p[n] = x[n]w[n]$   
+Note that p[n] is also of finite duration.   
+The importance of windowing in spectral analysis stems from the fact that in numerous applications one wishes to compute the Fourier transform of a signal that has been measured. Since in practice we can measure a signal x[n] only over a finite time interval (the time window), the actual signal available for spectral analysis is  
+$$
+p[n]=\left\{
+\begin{aligned}
+x[n] & ,-M \leqslant n \leqslant M \\
+0 & ,otherwise\\
+\end{aligned}
+\right.
+$$
+where $－M\leqslant n \leqslant M$ is the time window. Thus,  
+$p[n]=x[n]w[n]$    
+where w[n] is the rectangular window; that is,  
+$$
+w[n]=\left\{
+\begin{aligned}
+1 & ,-M \leqslant n \leqslant M \\
+0 & ,otherwise & (P5.55-1)\\
+\end{aligned}
+\right.
+$$
+Windowing also plays a role in LTI system design. Specifically, for a variety of reasons, it is often advantageous to design a system that has an impulse response of finite duration to achieve some desired signal-processing objective. That is, we often begin with a desired frequency response $H(e^{j \omega})$ whose inverse transform h[n] is an impulse response of infinite (or at least excessively long) duration. What is required then is the construction of an impulse response g[ n] of finite duration whose transform $G(e^{j \omega})$ adequately approximates $H(e^{j \omega})$ . One general approach to choosing g[n] is to find a window function w[n] such that the transform of h[n]w[n] meets the desired specifications for $G(e^{j \omega})$.   
+Clearly, the windowing of a signal has an effect on the resulting spectrum. In this problem, we illustrate that effect.  
+
+To gain some understanding of the effect of windowing, consider windowing the signal  
+$x[n]=\sum_{k=-\infty}^{\infty}\delta[n-k]$  
+using the rectangular window signal given in eq. (P5.55-1).  
+(i) What is $X(e^{j \omega})$?   
+(ii) Sketch the transform of p[n] = x[n]w[n] when M = 1.   
+(iii) Do the same for M = 10.  
+	
+		}
+		{
+		本题将介绍“加窗＂的概念，它尤论在线性时不变系统的设计，还是在信号的频谱分析中都非常重要。  
+“加窗”就是把信号 x[n] 乘以一个有限长的窗口信号 w[n] 的一种运算，也就是  
+$p[n] = x[n]w[n]$   
+注意， p[n] 也是有限长的。
+在频谱分析中，加街的重要性来自于：在大址应用场合，人们总是希望计算被测信号的傅里叶变换。  
+由千在实际中只能在有限时间区间（即时窗）上测得信号 x[n] ，因而对频谱分析来说，实际可利用的信号是  
+$$
+p[n]=\left\{
+\begin{aligned}
+x[n] & ,-M \leqslant n \leqslant M \\
+0 & ,其他\\
+\end{aligned}
+\right.
+$$
+其中$－M\leqslant n \leqslant M$就是时窗。于是  
+$p[n]=x[n]w[n]$  
+这里 w[n] 是矩形窗，即  
+$$
+w[n]=\left\{
+\begin{aligned}
+1 & ,-M \leqslant n \leqslant M \\
+0 & ,其他 & (P5.55-1)\\
+\end{aligned}
+\right.
+$$
+“加窗”在线性时不变系统设计中也起着重要的作用。具体而言，由于种种原因 ，需要设计一个具有有限长脉冲响应的系统，以便达到某种要求的信
+号处理目的；也就是说，往往从所需的频率响应$H(e^{j \omega})$开始，它的逆变换 h[n] 是一个无限长（或至少是非常长）的单位脉冲响应，而要求构成一个有限长单位脉冲响应 g[n] ，使它的傅里叶变换$G(e^{j \omega})$充分地逼近$H(e^{j \omega})$。选择 g[n] 的一般方法是找一个窗函数 w[n] ，使 h[n]w[n] 的傅里叶变换满足所需
+$G(e^{j \omega})$的指标要求。  
+很明显，将一个信号加窗对所得到的频谱是会有影响的，本题将说明这种影响。  
+为了对加窗的效果加深理解，现用式(PS. 55-1) 所给的矩形窗对信号  
+$x[n]=\sum_{k=-\infty}^{\infty}\delta[n-k]$  
+进行加窗。  
+(i) $X(e^{j \omega})$ 是什么？  
+(ii) M=1 时，概略画出 p[n] =x[n]w[n] 的变换。  
+(iii) M=10 时，重做 (ii)  	
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{6-20}
+	{
+		{
+			
+		}
+		{
+			
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{6-32}
+	{
+		{
+			
+		}
+		{
+			
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{6-35}
+	{
+		{
+			
+		}
+		{
+			
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{6-66}
+	{
+		{
+			
+		}
+		{
+			
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{7-1}
+	{
+		{
+			
+		}
+		{
+			
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{7-2}
+	{
+		{
+			
+		}
+		{
+			
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{7-22}
+	{
+		{
+			
+		}
+		{
+			
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{7-31}
+	{
+		{
+			
+		}
+		{
+			
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{9-14}
+	{
+		{
+			
+		}
+		{
+			
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{9-19}
+	{
+		{
+			
+		}
+		{
+			
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{9-26}
+	{
+		{
+			
+		}
+		{
+			
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{9-32}
+	{
+		{
+			
+		}
+		{
+			
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{9-37}
+	{
+		{
+			
+		}
+		{
+			
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{9-45}
+	{
+		{
+			
+		}
+		{
+			
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{9-48}
+	{
+		{
+			
+		}
+		{
+			
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{9-60}
+	{
+		{
+			
+		}
+		{
+			
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{9-62}
+	{
+		{
+			
+		}
+		{
+			
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{9-63}
+	{
+		{
+			
+		}
+		{
+			
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{10-3}
+	{
+		{
+			
+		}
+		{
+			
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{10-4}
+	{
+		{
+			
+		}
+		{
+			
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{10-14}
+	{
+		{
+			
+		}
+		{
+			
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{10-23}
+	{
+		{
+			
+		}
+		{
+			
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{10-25}
+	{
+		{
+			
+		}
+		{
+			
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{10-37}
+	{
+		{
+			
+		}
+		{
+			
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{SS}
+	{10-56}
+	{
+		{
+			
+		}
+		{
+			
+		}
+	}
+	{None}
+	{}
+	{}
+}

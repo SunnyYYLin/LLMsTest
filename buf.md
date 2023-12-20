@@ -1,0 +1,1 @@
+#include <stdio.h> \n/* print Fahrenheit-Celsius table */ \nmain() \n{ \nint fahr; \nfor (fahr = 0; fahr <= 300; fahr = fahr + 20) \nprintf(\"%3d %6.1f\\n\", fahr, (5.0/9.0)*(fahr-32)); \n} \nModify the temperature conversion program to print the table in reverse order, that is, from 300 degrees to 0\n

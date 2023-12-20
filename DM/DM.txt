@@ -1,0 +1,884 @@
+{
+	{Discrete Math}
+	{10-5-63}
+	{
+		{
+			Show that there is no reentrant knight’s tour on an m × n chessboard when m and n are both odd.
+		}
+		{
+			证明：当m和n都是奇数时，不存在马在m*n棋盘上的重返的周游 。
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{12-4-33}
+	{
+		{
+			Show that products of k literals correspond to 2^{n-k} dimensional subcubes of the n-cube Q_{n.}, where the vertices of the cube correspond to the minterms represented by the bit strings labeling the vertices, as described below.
+            n-Cubes: An n-dimensional hypercube, or n-cube, denoted by Q_{n.} is a graph that has vertices representing the 2n bit strings of length n. Two vertices are adjacent if and only if the bit strings that they represent differ in exactly one bit position.
+		}
+		{
+			证明:k个字面值的积对应于n立方体Q_{n.}的 2^{n-1}维子立方体，其中立方体的顶点对应于标识顶点比特串表示的极小项。描述如下：
+n 立方体图: n立方体图记作 Q_n, 是用顶点表示2^n个长度为n的比特串的图。两个
+顶点相邻，当且仅当它们所表示的比特串恰恰有一位不同。
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{11-3-32}
+	{
+		{
+			Give a definition of well-formed formulae in postfix notation over a set of symbols and a set of binary operators.
+		}
+		{
+			给出在符号集合和二元运算符集合上用后缀记法表示的合式公式的定义。
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{11-3-18}
+	{
+		{
+			a) Represent the compound propositions ¬(p ∧ q) ↔ (¬p ∨ ¬q) and (¬p ∧ (q ↔ ¬p)) ∨ ¬q using ordered rooted trees. 
+            Write these expressions in 
+            b) prefix notation. 
+            c) postfix notation. 
+            d) infix notation.
+		}
+		{
+			用有序根树来表示复合命题¬(p ∧ q) ↔ (¬p ∨ ¬q) and (¬p ∧ (q ↔ ¬p)) ∨ ¬q表示方式应采用：
+a) 前缀记法  b)后缀记法 c) 中缀记法
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{10-5-41}
+	{
+		{
+			Does the graph below have a Hamilton path? If so, find such a path. If it does not, give an argument to show why no such path exists.
+		}
+		{
+			下图有哈密顿通路吗？如果有，找到它。如果没有，给出理由证明不存在这样的通路。
+		}
+	}
+	{10-5-41.png}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{11-5-30}
+	{
+		{
+			Show that when given as input an undirected graph with n vertices, no more than ⌊n∕2^k⌋ ttrees remain after the first step of Sollin’s algorithm has been carried out and the second step of the algorithm has been carried out k-1 times
+		}
+		{
+			证明 当输入为含有 个顶点的无向图时，在已经完成索林算法的第一步，并且已经 k-l 次执行索林算法的第 二步 之后，还剩下不超过 ⌊n∕2^k⌋棵树
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{4-4-53}
+	{
+		{
+			Solve the system of congruence below 
+x ≡ 65 (mod 99),
+x ≡ 2 (mod 98),
+x ≡ 51 (mod 97),
+x ≡ 10 (mod 95).
+		}
+		{
+			求解下面的同余方程组
+x ≡ 65 (mod 99),
+x ≡ 2 (mod 98),
+x ≡ 51 (mod 97),
+x ≡ 10 (mod 95).
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{9-6-54}
+	{
+		{
+			Determine whether each of these posets is well-ordered. 
+a) (S,≤), where S = {10, 11, 12,…} 
+b) (Q ∩ [0, 1],≤) (the set of rational numbers between 0 and 1 inclusive) 
+c) (S,≤), where S is the set of positive rational numbers with denominators not exceeding 3 
+d) (Z^-,≥), where Z^− is the set of negative integers 
+		}
+		{
+			确定下述每个偏序集是否为良序的
+a) (S,≤)，其中 S={10, 11, 12, … } 
+b)(Q ∩ [0, 1],≤)(O 和1之间的有理数集合，包含0和1)
+c)(S,≤), S是分母不超过3的正有理数集合
+d) (Z^-,≥)其中Z^-是负整数的集合
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{4-6-18}
+	{
+		{
+			Use the Vigenère cipher with key BLUE to encrypt the message SNOWFALL.
+		}
+		{
+			利用维吉尼亚密码以及密钥 BLUE 加密消息 SNOWFALL
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{7-4-30}
+	{
+		{
+			Show that if X and Y are independent random variables, then V(XY)=E(X)^2*V(Y)+E(Y)^2*V(X)+V(X)V(Y).
+		}
+		{
+			证明如果X和Y是独立随机变量，则V(XY)=E(X)^2*V(Y)+E(Y)^2*V(X)+V(X)V(Y)。
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{1-4-37}
+	{
+		{
+			Find a counterexample, if possible, to these universally quantified statements, where the domain for all variables consists of all integers. 
+a) \forall x(x^2≥x)
+b) \forall x(x>0∨x<0)
+c) \forall x(x=1)
+		}
+		{
+			找出下列全称量化命题的反例（如果可能的话），其中所有变量的论域是整数集合。
+a) \forall x(x^2≥x)
+b) \forall x(x>0∨x<0)
+c) \forall x(x=1)
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{10-5-43}
+	{
+		{
+			Does the graph below have a Hamilton path? If so, find such a path. If it does not, give an argument to show why no such path exists.
+		}
+		{
+			下图有哈密顿通路吗？如果有，找到它。如果没有，给出理由证明不存在这样的通路
+		}
+	}
+	{10-5-43.png}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{10-3-70}
+	{
+		{
+			Define isomorphism of directed graphs.determine whether the given pair of directed graphs are isomorphic. 
+		}
+		{
+			定义有向图的同构，判定所给的一对有向图是否同构
+		}
+	}
+	{10-3-70.png}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{1-3-61}
+	{
+		{
+			The following sentence is taken from the specification of a telephone system: “If the directory database is opened, then the monitor is put in a closed state, if the system is not in its initial state.” This specification is hard to understand because it involves two conditional statements. Find an equivalent, easier-to-understand specification that involves disjunctions and negations but not conditional statements.
+		}
+		{
+			下面的语句取自 一个电话系统的规范说明 ：“如果目 录数据库是打开的 ，那么监控程序被置于关闭状态，如果系统不在其初始状态。”这句话有两个条件语句，使规范说明很难懂。找一个等价的易懂的规范说明，使其只涉及析取和否定，而不涉及条件语句。
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{4-1-29}
+	{
+		{
+			Find a div m and a mod m when 
+a) a = 228, m = 119. 
+b) a = 9009, m = 223. 
+c) a = −10101, m = 333. 
+d) a = −765432, m = 38271. 
+		}
+		{
+			找出 a div m和a mod m
+a) a = 228, m = 119. 
+b) a = 9009, m = 223. 
+c) a = −10101, m = 333. 
+d) a = −765432, m = 38271. 
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{5-1-61}
+	{
+		{
+			Show that [(p1 → p2) ∧ (p2 → p3) ∧ ⋯ ∧ (pn-1 → pn)] → [(p1 ∧ p2 ∧ ⋯ ∧ pn-1) → pn] is a tautology whenever p1,p2,… ,pn are propositions, where n ≥ 2.
+		}
+		{
+			证明：只要p_1,p_2,⋯，p_n都是命题时则[(p1 → p2) ∧ (p2 → p3) ∧ ⋯ ∧ (pn-1 → pn)] → [(p1 ∧ p2 ∧ ⋯ ∧ pn-1) → pn]就是重言式。
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{10-1-10}
+	{
+		{
+			For each undirected graph below that is not simple, find a set of edges to remove to make it simple.
+		}
+		{
+			下面的每个无向图不是简单图，找出使它变成简单图的可删除的边的集合。
+		}
+	}
+	{10-1-10-1.png,10-1-10-2.png,10-1-10-3.png,10-1-10-4.png,10-1-10-5.png,10-1-10-6.png,10-1-10-7.png}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{10-6-30}
+	{
+		{
+			 Show that the problem of finding a circuit of minimum total weight that visits every vertex of a weighted graph at least once can be reduced to the problem of finding a circuit of minimum total weight that visits each vertex of a weighted graph exactly once. Do so by constructing a new weighted graph with the same vertices and edges as the original graph but whose weight of the edge connecting the vertices u and v is equal to the minimum total weight of a path from u to v in the original graph.
+		}
+		{
+			证明：求访问加权图每个顶点至少一次的总权值最小的回路问题，可以归约为求访问加权图每个顶点恰好一次的总权值最小的回路问题。这样做的方法是：构造一个新的加权图，它与原图有相同的顶点和边，但是连接顶点u和v的边的权却等千在原图中从u到v的通路的最小总权值数
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{11-4-24}
+	{
+		{
+			Explain how breadth-first search or depth-first search can be used to order the vertices of a connected graph.
+		}
+		{
+			解释如何用宽度优先搜索或深度优先搜索来排序连通图的顶点。
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{1-2-44}
+	{
+		{
+			Find the output of each of these combinatorial circuits.
+		}
+		{
+			找出每个组合电路的输出。
+		}
+	}
+	{1-2-44.png}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{4-4-54}
+	{
+		{
+			Show that 2 is a primitive root of 19.
+		}
+		{
+			证明2是19 的一个原根
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{5-3-58}
+	{
+		{
+			Use mathematical induction to prove that a function F defined by specifying F(0) and a rule for obtaining F(n + 1) from F(n) is well defined.
+		}
+		{
+			用数学归纳法证明：通过规定 F(O) 和从 F(n) 获得 F(n +1) 的规则所定义的函数F是良定义的
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{7-4-12}
+	{
+		{
+			Suppose that we roll a fair die until a 6 comes up. 
+a) What is the probability that we roll the die n times? 
+b) What is the expected number of times we roll the die?
+
+		}
+		{
+			假设掷一个骰子直到出现6点为止
+a)我们掷n次骰子的概率是多少?
+b)我们掷骰子的预期次数是多少？
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{10-2-39}
+	{
+		{
+			Find the degree sequence of each of the following graphs. 
+a) K_4  b) C_4  c) W_4  d) K_2,3  e) Q_3
+
+		}
+		{
+			求下列各个图的度序列
+a) K_4  b) C_4  c) W_4  d) K_2,3  e) Q_3
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{5-3-60}
+	{
+		{
+			Show that each of these proposed recursive definitions of a function on the set of positive integers does not produce a well-defined function. 
+a) F(n) = 1 + F(⌊n∕2⌋) for n ≥ 1 and F(1) = 1. 
+b) F(n) = 1 + F(n - 3) for n ≥ 2, F(1) = 2, and F(2) = 3. 
+c) F(n) = 1 + F(n∕2) for n ≥ 2, F(1) = 1, and F(2) = 2. 
+
+		}
+		{
+			证明：下述每 个所谓的对正整数集合上的函数的递归定义都不能产生良定义的函数。
+a)对n ≥ 1来说F(n) = 1 + F(⌊n∕2⌋)，且F(1) = 1.
+b)对n ≥ 2来说F(n) = 1 + F(n - 3)，且F(2) = 3.
+c)对n ≥ 2来说F(n) = 1 + F(n∕2)，且F(2) = 2. 
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{1-4-53}
+	{
+		{
+			Show that ∃xP(x) ∧ ∃xQ(x) and ∃x(P(x) ∧ Q(x)) are not logically equivalent.
+		}
+		{
+			证明∃xP(x) ∧ ∃xQ(x)和∃x(P(x) ∧ Q(x))不是逻辑等价的
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{1-5-29}
+	{
+		{
+			Suppose the domain of the propositional function P(x, y) consists of pairs x and y, where x is 1, 2, or 3 and y is 1, 2, or 3. Write out these propositions using disjunctions and conjunctions.
+a) ∀x∀yP(x, y) b) ∃x∃yP(x, y)
+c) ∃x∀yP(x, y) d) ∀y∃xP(x, y)
+		}
+		{
+			假定命题函数 P(x，y) 的论域由x和y的序偶组成，其中 x是1、2或3。用析取式和合取式写出下列命题。
+a) ∀x∀yP(x, y) b) ∃x∃yP(x, y)
+c) ∃x∀yP(x, y) d) ∀y∃xP(x, y)
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{6-5-17}
+	{
+		{
+			How many strings of 10 ternary digits (0, 1, or 2) are there that contain exactly two 0s, three 1s, and five 2s?
+		}
+		{
+			有多少 10 位三进制数字 (0，1或 2) 串恰含有 2个0、3个1和5个2?
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{13-3-1}
+	{
+		{
+			Let A = {0, 11} and B = {00, 01}. Find each of these sets.
+a) AB b) BA c) A^2 d) B^3
+		}
+		{
+			设A = {0, 11}，B = {00, 01}，求下列集合
+a) AB b) BA c) A^2 d) B^3
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{10-7-4}
+	{
+		{
+			Can five houses be connected to two utilities without connections crossing based on the graph below? 
+		}
+		{
+			5座房屋能否不带连接交叉地与两种设施相连接吗？基于下图回答。
+		}
+	}
+	{10-7-4.png}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{5-3-52}
+	{
+		{
+			Show that A(1, n) = 2^n whenever n ≥ 1.
+		}
+		{
+			证明：当n ≥ 1时，有A(1, n) = 2^n
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{10-2-19}
+	{
+		{
+			Use the information below to show that in a group of people, there must be two people who are friends with the same number of other people in the group.
+In a simple graph with at least two vertices there must be two vertices that have the same degree.
+		}
+		{
+			利用以下信息证明：在一个小组中，至少 两个人具有相同的朋友数
+在至少含有两个顶点的简单图中， 一定有两个顶点的度相同
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{6-1-76}
+	{
+		{
+			Use mathematical induction to prove the product rule for m tasks from the product rule for two tasks.
+		}
+		{
+			使用数学归纳法从两个任务的乘积法则证明关于m个任务的乘积法则
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{6-3-45}
+	{
+		{
+			How many ways are there for a horse race with three horses to finish if ties are possible? [Note: Two or three horses may tie.]
+		}
+		{
+			如果允许出现并列名次，3匹马参加马赛有多少种结果？ [注意:可以2匹或3匹马并列 。］
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{2-3-4}
+	{
+		{
+			Find the domain and range of these functions. Note that in each case, to find the domain, determine the set of elements assigned values by the function.
+a) the function that assigns to each nonnegative integer its last digit
+b) the function that assigns the next largest integer to a positive integer
+c) the function that assigns to a bit string the number of one bits in the string
+d) the function that assigns to a bit string the number of bits in the string
+		}
+		{
+			求下列函数的定义域和值域 。(注意在每种情况下，为了求函数定义域，只需确定被该函数指派了值的元素集合。）
+a)函数为每个非负整数指派该整数的最后一位数字。
+b)函数为每个正整数指派比它小的最大整数。
+c)函数为每个比特串指派串中比特1的个数。
+d)函数为每个比特串指派串中的比特数。
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{4-2-36}
+	{
+		{
+			Suppose that n and b are positive integers with b ≥ 2 and the base b expansion of n is n = (a_ma_m−1 … a_1a_0)b. Find the base b expansion of
+a) bn. b) b^2*n;
+c) ⌊n∕b⌋. d) ⌊n∕b^2⌋.
+		}
+		{
+			假设n和b是正整数且 b ≥ 2 ，n的b进制展开式为n = (a_ma_m−1 … a_1a_0)b 。求下列数的b进制展开式。
+a) bn. b) b^2*n;
+c) ⌊n∕b⌋. d) ⌊n∕b^2⌋.
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{8-2-10}
+	{
+		{
+			prove the theorem below
+Let c_1 and c_2 be real numbers with c_2 ≠ 0. Suppose that r^2 − c_1*r − c_2 = 0 has only one root r_0. A sequence {a_n} is a solution of the recurrence relation a_n = c_1*a_n−1 +c_2*a_n−2 if and only if a_n = 𝛼_1*r_0^n + 𝛼_2*n*r_0^n, for n = 0, 1, 2, … , where 𝛼_1 and 𝛼_2 are constants.
+		}
+		{
+			证明下述定理：
+设c_1和c_2是实数，c_2≠ 0.假设r^2 − c_1*r − c_2 = 0 只有一个根r_0。序列{a_n}是递推关系a_n = c_1*a_n−1 +c_2*a_n−2的解，当且仅当a_n = 𝛼_1*r_0^n + 𝛼_2*n*r_0^n, n = 0, 1, 2, …,其中a_1和a_2是常数。
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{8-1-5}
+	{
+		{
+			How many ways are there to pay a bill of 17 pesos using the currency described below, where the order in which coins and bills are paid matters?
+A country uses as currency coins with values of 1 peso, 2 pesos, 5 pesos, and 10 pesos and bills with values of 5 pesos, 10 pesos, 20 pesos, 50 pesos, and 100 pesos. Find a recurrence relation for the number of ways to pay a bill of n pesos if the order in which the coins and bills are paid matters.
+		}
+		{
+			如果考虑付硬币和纸币的次序，那么下述货币系统付 17 比索的账单有多少种方式？
+一个国家使用的硬币价值为1比索、2比索、5比索和 10 比索，纸币的价值为5比索、 10 比索、20比索、 50 比索和 100 比索。如果考虑付硬币和纸币的次序，求一个与付 比索账单的方式数有关的递推关系
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{1-7-28}
+	{
+		{
+			Prove that if n is a positive integer, then n is even if and only if 7n + 4 is even.
+		}
+		{
+			证明如果n是正整数，则n是偶数当且仅当 7n +4 偶数
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{3-2-29}
+	{
+		{
+			For each function below, determine whether that function is Ω(x^2) and whether it is Θ(x^2).
+a) f(x) = 17x + 11 b) f(x) = x^2 + 1000
+c) f(x) = x log x d) f(x) = x^4∕2
+e) f(x) = 2^x  f) f(x) = ⌊x⌋ ⋅ ⌈x⌉
+		}
+		{
+			对下述各函数，判断它是否为Ω(x^2)的和Θ(x^2)的。
+a) f(x) = 17x + 11 b) f(x) = x^2 + 1000
+c) f(x) = x log x d) f(x) = x^4∕2
+e) f(x) = 2^x  f) f(x) = ⌊x⌋ ⋅ ⌈x⌉
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{4-1-49}
+	{
+		{
+			Show that Z_m with multiplication modulo m, where m ≥ 2 is an integer, satisfies the closure, associative, and commutativity properties, and 1 is a multiplicative identity.
+		}
+		{
+			证明带有模m乘法的Z_m满足封闭性、结合律、交换律， 1是乘法单位元， m ≥ 2其中 是一个整数。
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{10-1-29}
+	{
+		{
+			Describe a graph model that represents whether each person at a party knows the name of each other person at the party. Should the edges be directed or undirected? Should multiple edges be allowed? Should loops be allowed?
+		}
+		{
+			描述一个图模型，它表示在某个聚会上每个人是否知道另一个人的名字。图中的边应该是有向的还是无向的？是否应该允许多重边？是否应该允许环？
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{9-5-41}
+	{
+		{
+			Which of these collections of subsets are partitions of {1, 2, 3, 4, 5, 6}?
+a) {1, 2}, {2, 3, 4}, {4, 5, 6}
+b) {1}, {2, 3, 6}, {4}, {5}
+c) {2, 4, 6}, {1, 3, 5}  d) {1, 4, 5}, {2, 6}
+		}
+		{
+			下面哪些子集族是{ 1, 2, 3, 4 , 5} 的划分？
+a) {1, 2}, {2, 3, 4}, {4, 5, 6}
+b) {1}, {2, 3, 6}, {4}, {5}
+c) {2, 4, 6}, {1, 3, 5}  d) {1, 4, 5}, {2, 6}
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{6-2-9}
+	{
+		{
+			Let n be a positive integer. Show that in any set of n consecutive integers there is exactly one divisible by n.
+		}
+		{
+			设n是正整数 。证明：在 任意 一组n个连续的正整数中恰好有1个被n整除
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{9-4-26}
+	{
+		{
+			Use algorithm 1 below to find the transitive closures of these relations on {a, b, c, d, e}.
+a) {(a, c), (b, d),(c, a), (d, b),(e, d)}
+b) {(b, c),(b, e),(c, e), (d, a),(e, b), (e, c)}
+c) {(a, b), (a, c), (a, e), (b, a),(b, c),(c, a),(c, b),(d, a),(e, d)}
+d) {(a, e), (b, a),(b, d),(c, d),(d, a),(d, c),(e, a),(e, b),(e, c), (e, e)}
+algorithm 1:
+procedure transitive closure (MR : zero–one n × n matrix)
+A := M_R
+B := A
+for i := 2 to n
+A := A ⊙ M_R
+B := B ∨ A
+return B{B is the zero–one matrix for R^∗}
+		}
+		{
+			使用算法1找出下面 {a, b , c, d} 上的关系的传递闭包：
+a) {(a, c), (b, d),(c, a), (d, b),(e, d)}
+b) {(b, c),(b, e),(c, e), (d, a),(e, b), (e, c)}
+c) {(a, b), (a, c), (a, e), (b, a),(b, c),(c, a),(c, b),(d, a),(e, d)}
+d) {(a, e), (b, a),(b, d),(c, d),(d, a),(d, c),(e, a),(e, b),(e, c), (e, e)}
+算法1：
+procedure transitive closure (MR : zero–one n × n matrix)
+A := M_R
+B := A
+for i := 2 to n
+A := A ⊙ M_R
+B := B ∨ A
+return B{B is the zero–one matrix for R^∗}
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{9-5-19}
+	{
+		{
+			Let R be the relation on the set of all URLs (or Web addresses) such that xRy if and only if the Web page at x is the same as the Web page at y. Show that R is an equivalence relation.
+		}
+		{
+			.设R是定义在所有 URL（或 Web 地址）集合上的关系xRy 当且仅当x的Web页与在y的Web页相同，证明R是等价关系
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{6-3-36}
+	{
+		{
+			Suppose that a department contains 10 men and 15 women. How many ways are there to form a committee with six members if it must have more women than men?
+		}
+		{
+			假定某个系包含 10 名男士和 15名女士。有多少种方式组成一个6人委员会且使得它含有的女士比男士多？
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{1-4-50}
+	{
+		{
+			Establish these logical equivalences, where x does not occur as a free variable in A. Assume that the domain is nonempty.
+a) ∀x(A → P(x)) ≡ A → ∀xP(x)
+b) ∃x(A → P(x)) ≡ A → ∃xP(x)
+		}
+		{
+			证明下列逻辑等价式，其中x在A中不作为自由变社出现 。假设论域非空。
+a) ∀x(A → P(x)) ≡ A → ∀xP(x)
+b) ∃x(A → P(x)) ≡ A → ∃xP(x)
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{10-5-26}
+	{
+		{
+			For which values of n do these graphs have an Euler circuit?
+a) K_n b) C_n c) W_n d) Q_n
+		}
+		{
+			对哪些n值来说，下列图具有欧拉回路？
+a) K_n b) C_n c) W_n d) Q_n
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{9-3-5}
+	{
+		{
+			How can the matrix representing a relation R on a set A be used to determine whether the relation is irreflexive?
+		}
+		{
+			怎样用表示集合A上的关系R的有向图确定这个关系是否是反自反的？
+		}
+	}
+	{None}
+	{}
+	{}
+}
+{
+	{Discrete Math}
+	{}
+	{
+		{
+			
+		}
+		{
+			
+		}
+	}
+	{None}
+	{}
+	{}
+}
